@@ -1,10 +1,10 @@
-package com.demo.David;
+package com.demo.davg;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DemoDavidApplicationTests {
+class DavgApplicationTests {
 
 	@Test
 	void contextLoads() {
