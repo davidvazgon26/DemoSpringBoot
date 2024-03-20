@@ -30,6 +30,13 @@ public class Producto {
 
     private Boolean estado;
 
+    // relacion con tabla categoria
+    @ManyToOne
+    @JoinColumn(name = "id_categoria", insertable = false, updatable = false)
+    // los false son para evitar cancelar, actualizar o insertar una nueva categoria
+    // desde aqui
+    private Categoria categoria;
+
     // Getters and Setters
 
     public Integer getIdProducto() {
