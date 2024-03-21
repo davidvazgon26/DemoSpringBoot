@@ -11,4 +11,8 @@ public class ProductoRepository {
     public List<Producto> getAll() {
         return (List<Producto>) productoCrudRepository.findAll(); // Puedo castear el tipo de lista
     }
+
+    public List<Producto> getByProductos(int idCategoria) {
+        return productoCrudRepository.findByIdCategoria(idCategoria);
+    }
 }
