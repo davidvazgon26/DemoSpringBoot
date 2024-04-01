@@ -25,7 +25,7 @@ public interface ProductMapper {
 
     List<Product> toProducts(List<Producto> productos);
 
-    @InheritConfiguration // inverter relation
+    @InheritConfiguration // inverter relation mapping
     @Mapping(target = "codigoBarras", ignore = true)
     Producto toProducto(Product product);
 }
