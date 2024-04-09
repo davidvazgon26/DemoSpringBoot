@@ -8,7 +8,7 @@ import com.demo.davg.domain.Product;
 public interface ProductRepository {
     List<Product> getAll();
 
-//Guardad
+    // Save
     Optional<List<Product>> getByCategory(int categoryId);
 
     Optional<List<Product>> getScaresProducts(int quantity);
