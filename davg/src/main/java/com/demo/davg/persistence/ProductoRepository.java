@@ -43,7 +43,7 @@ public class ProductoRepository implements ProductRepository { // Repository es 
     public Optional<Producto> getProducto(int idProducto) {
         return productoCrudRepository.findById(idProducto);
     }
-..
+
     @SuppressWarnings("null")
     public Producto save(Producto producto) {
         return productoCrudRepository.save(producto);
