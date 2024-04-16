@@ -9,6 +9,8 @@ import java.util.Optional;
 public interface ProductoCrudRepository extends CrudRepository<Producto, Integer> {
     // @Query(value = "SELECT * FROM productos WHERE id_categoria = ?", nativeQuery
     // = true);
+
+    // continuar
     List<Producto> findByIdCategoria(Integer idCategoria); // Se consume en ProductoRepository
 
     Optional<List<Producto>> findByCantidadStockLessTHanAndEstado(int cantidadStock, Boolean estado);
