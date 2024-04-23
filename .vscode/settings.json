@@ -72,5 +72,6 @@
     "todos",
     "venta"
   ],
-  "java.configuration.updateBuildConfiguration": "interactive"
+  "java.configuration.updateBuildConfiguration": "interactive",
+  "java.jdt.ls.java.home": "C:\\Program Files\\Java\\jdk-17"
 }

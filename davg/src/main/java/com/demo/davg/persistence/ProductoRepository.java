@@ -44,7 +44,6 @@ public class ProductoRepository implements ProductRepository { // Repository es 
         return productoCrudRepository.findById(idProducto);
     }
 
-    @SuppressWarnings("null")
     public Producto save(Producto producto) {
         return productoCrudRepository.save(producto);
     }
